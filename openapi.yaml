@@ -1,0 +1,78 @@
+openapi: 3.0.4
+info:
+  title: Airport Code Converter
+  description: >-
+    Airport Code Converter is a simple tool for converting between IATA
+    (3-letter) and ICAO (4-letter) airport codes. Submit either format and get
+    the corresponding code back.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.0
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+  - url: https://api.apiverve.com/
+paths:
+  /v1/airportcodeconverter:
+    get:
+      summary: Convert Airport Code
+      description: >-
+        Submit an IATA (3-letter) or ICAO (4-letter) airport code and get the
+        corresponding code in the other format.
+      operationId: airportcodeconverter
+      parameters:
+        - name: code
+          in: query
+          schema:
+            type: string
+          required: true
+          description: 'The airport code to convert (IATA: 3 letters, ICAO: 4 letters)'
+          example: MCI
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: object
+                    description: data
+              example:
+                status: ok
+                error: null
+                data:
+                  input: MCI
+                  inputType: IATA
+                  iata: MCI
+                  icao: KMCI
+                  name: Kansas City International Airport
+                  city: Kansas City
+                  state: Missouri
+                  country: US
+                  found: true
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occurred, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+  - api_key: []
