@@ -224,8 +224,9 @@ from apiverve_airportcodeconverter.apiClient import AirportcodeconverterAPIClien
 
 api = AirportcodeconverterAPIClient("[YOUR_API_KEY]")
 
+query = { "code": "MCI" }
+
 try:
-    query = { "code": "MCI" }
     result = api.execute(query)
     print(result)
 finally:
