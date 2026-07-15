@@ -130,6 +130,10 @@ async function makeRequest() {
     "city": "Kansas City",
     "state": "Missouri",
     "country": "US",
+    "elevation": 1026,
+    "latitude": 39.2976,
+    "longitude": -94.7139,
+    "timezone": "America/Chicago",
     "found": true
   }
 }
