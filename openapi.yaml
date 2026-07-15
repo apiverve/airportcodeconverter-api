@@ -61,6 +61,10 @@ paths:
                   city: Kansas City
                   state: Missouri
                   country: US
+                  elevation: 1026
+                  latitude: 39.2976
+                  longitude: -94.7139
+                  timezone: America/Chicago
                   found: true
         '401':
           description: Your request was not authorized, or your API Key was invalid
