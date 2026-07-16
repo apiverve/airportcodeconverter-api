@@ -25,6 +25,9 @@ namespace APIVerve.API.AirportCodeConverter
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -53,7 +56,31 @@ namespace APIVerve.API.AirportCodeConverter
         [JsonProperty("country")]
         public string Country { get; set; }
 
+        [JsonProperty("elevation")]
+        public long? Elevation { get; set; }
+
+        [JsonProperty("latitude")]
+        public double? Latitude { get; set; }
+
+        [JsonProperty("longitude")]
+        public double? Longitude { get; set; }
+
+        [JsonProperty("timezone")]
+        public string Timezone { get; set; }
+
         [JsonProperty("found")]
-        public bool Found { get; set; }
+        public bool? Found { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
