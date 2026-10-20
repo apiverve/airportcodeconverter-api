@@ -1,13 +1,12 @@
 Airport Code Converter API
 ============
 
-Airport Code Converter is a simple tool for converting between IATA (3-letter) and ICAO (4-letter) airport codes. Submit either format and get the corresponding code back.
+Airport Code Converter is an IATA code API that converts between 3-letter IATA and 4-letter ICAO airport codes. Submit either identifier to receive the matching code, official airport name, city, state, and country code.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Airport Code Converter API](https://apiverve.com/marketplace/airportcodeconverter?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-airportcodeconverter.svg)](https://pypi.org/project/apiverve-airportcodeconverter/)
+
+This is a Python wrapper for the [Airport Code Converter API](https://apiverve.com/marketplace/airportcodeconverter?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-airportcodeconverter
 
 ## Configuration
 
-Before using the airportcodeconverter API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Airport Code Converter API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Airport Code Converter API documentation is found here: [https://docs.apiverve.com/ref/airportcodeconverter](https://docs.apiverve.com/ref/airportcodeconverter?utm_source=pypi&utm_medium=readme).
+The Airport Code Converter API documentation is found here: [https://docs.apiverve.com/ref/airportcodeconverter](https://docs.apiverve.com/ref/airportcodeconverter?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -110,6 +109,10 @@ print(result)
     "city": "Kansas City",
     "state": "Missouri",
     "country": "US",
+    "elevation": 1026,
+    "latitude": 39.2976,
+    "longitude": -94.7139,
+    "timezone": "America/Chicago",
     "found": true
   }
 }
@@ -238,7 +241,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -249,12 +252,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
