@@ -1,7 +1,7 @@
 {
     "name": "apiverve/airportcodeconverter",
-    "description": "Airport Code Converter is a simple tool for converting between IATA (3-letter) and ICAO (4-letter) airport codes. Submit either format and get the corresponding code back.",
-    "version": "1.2.0",
+    "description": "Airport Code Converter is an IATA code API that converts between 3-letter IATA and 4-letter ICAO airport codes. Submit either identifier to receive the matching code, official airport name, city, state, and country code.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "airportcodeconverter",
-        "airport code converter",
-        "iata to icao",
-        "icao to iata",
-        "airport code lookup",
-        "airport codes"
+        "airport codes api",
+        "iata code api",
+        "airport iata codes api",
+        "icao airport code api",
+        "airport code converter"
     ],
-    "homepage": "https://apiverve.com/marketplace/airportcodeconverter?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/airportcodeconverter?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/airportcodeconverter",
