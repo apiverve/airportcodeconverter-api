@@ -1,6 +1,6 @@
 # Airport Code Converter API - PHP Package
 
-Airport Code Converter is a simple tool for converting between IATA (3-letter) and ICAO (4-letter) airport codes. Submit either format and get the corresponding code back.
+Airport Code Converter is an IATA code API that converts between 3-letter IATA and 4-letter ICAO airport codes. Submit either identifier to receive the matching code, official airport name, city, state, and country code.
 
 ## Installation
 
@@ -93,11 +93,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/airportcodeconverter?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/airportcodeconverter?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/airportcodeconverter?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/airportcodeconverter?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/airportcodeconverter?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/airportcodeconverter?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
