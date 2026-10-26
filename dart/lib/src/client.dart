@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Airport Code Converter API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/airportcodeconverter?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/airportcodeconverter?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [code] (required) - The airport code to convert (IATA: 3 letters, ICAO: 4 letters)
