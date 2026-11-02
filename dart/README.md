@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_airportcodeconverter: ^1.2.3
+  apiverve_airportcodeconverter: ^1.2.4
 ```
 
 Then run:
