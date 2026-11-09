@@ -1,6 +1,6 @@
 name: apiverve_airportcodeconverter
 description: "Airport Code Converter is an IATA code API that converts between 3-letter IATA and 4-letter ICAO airport codes. Submit either identifier to receive the matching code, official airport name, city, state, and country code."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/airportcodeconverter?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/airportcodeconverter-api/tree/main/dart
 
